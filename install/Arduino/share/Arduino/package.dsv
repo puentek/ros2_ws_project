@@ -1,0 +1,6 @@
+source;share/Arduino/hook/pythonpath.ps1
+source;share/Arduino/hook/pythonpath.dsv
+source;share/Arduino/hook/pythonpath.sh
+source;share/Arduino/hook/ament_prefix_path.ps1
+source;share/Arduino/hook/ament_prefix_path.dsv
+source;share/Arduino/hook/ament_prefix_path.sh

@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (Arduino) JobQueued: {'identifier': 'Arduino', 'dependencies': OrderedDict()}
+[0.000378] (Dynamixels) JobQueued: {'identifier': 'Dynamixels', 'dependencies': OrderedDict()}
+[0.000414] (Gripper) JobQueued: {'identifier': 'Gripper', 'dependencies': OrderedDict()}
+[0.000436] (tactile) JobQueued: {'identifier': 'tactile', 'dependencies': OrderedDict()}
+[0.000681] (Arduino) JobStarted: {'identifier': 'Arduino'}
+[0.099723] (-) TimerEvent: {}
+[0.157548] (Dynamixels) JobStarted: {'identifier': 'Dynamixels'}
+[0.199851] (-) TimerEvent: {}
+[0.269985] (Gripper) JobStarted: {'identifier': 'Gripper'}
+[0.300010] (-) TimerEvent: {}
+[0.381266] (tactile) JobStarted: {'identifier': 'tactile'}
+[0.400125] (-) TimerEvent: {}
+[0.500386] (-) TimerEvent: {}
+[0.600670] (-) TimerEvent: {}
+[0.700948] (-) TimerEvent: {}
+[0.801258] (-) TimerEvent: {}
+[0.901694] (-) TimerEvent: {}
+[1.001985] (-) TimerEvent: {}
+[1.102264] (-) TimerEvent: {}
+[1.202510] (-) TimerEvent: {}
+[1.302828] (-) TimerEvent: {}
+[1.403075] (-) TimerEvent: {}
+[1.503361] (-) TimerEvent: {}
+[1.604090] (-) TimerEvent: {}
+[1.704412] (-) TimerEvent: {}
+[1.804704] (-) TimerEvent: {}
+[1.904990] (-) TimerEvent: {}
+[2.005287] (-) TimerEvent: {}
+[2.105554] (-) TimerEvent: {}
+[2.205907] (-) TimerEvent: {}
+[2.306254] (-) TimerEvent: {}
+[2.406688] (-) TimerEvent: {}
+[2.507097] (-) TimerEvent: {}
+[2.607867] (-) TimerEvent: {}
+[2.708695] (-) TimerEvent: {}
+[2.809469] (-) TimerEvent: {}
+[2.909892] (-) TimerEvent: {}
+[3.010504] (-) TimerEvent: {}
+[3.111436] (-) TimerEvent: {}
+[3.212479] (-) TimerEvent: {}
+[3.313584] (-) TimerEvent: {}
+[3.414423] (-) TimerEvent: {}
+[3.515241] (-) TimerEvent: {}
+[3.616400] (-) TimerEvent: {}
+[3.643374] (Gripper) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/Gripper', 'build', '--build-base', '/home/kaky/ros2_ws_project_ws/build/Gripper/build', 'install', '--record', '/home/kaky/ros2_ws_project_ws/build/Gripper/install.log', '--single-version-externally-managed'], 'cwd': '/home/kaky/ros2_ws_project_ws/src/Gripper', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kaky', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kaky/ros2_ws/install/rob599_msgs/lib:/home/kaky/ros2_ws/install/rob599_hw2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kaky', 'OLDPWD': '/home/kaky/ros2_ws_project_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1565', 'SYSTEMD_EXEC_PID': '1770', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5643', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kaky/ros2_ws_project_ws/install:/home/kaky/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kaky', 'JOURNAL_STREAM': '8:32320', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kaky', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kaky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/teloiv:@/tmp/.ICE-unix/1748,unix/teloiv:/tmp/.ICE-unix/1748', 'INVOCATION_ID': '345537d3d2fc43b4bb8b94467b7f2d79', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UKIAJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kaky/ros2_ws/install/rob599_basic:/home/kaky/ros2_ws/install/rob599_msgs:/home/kaky/ros2_ws/install/rob599_hw2_interfaces:/home/kaky/ros2_ws/install/rob599_hw2:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b154f01f-fd80-4ce1-ab07-6d855e8b76bd', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kaky/ros2_ws_project_ws/build/Gripper', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kaky/ros2_ws_project_ws/build/Gripper/prefix_override:/home/kaky/ros2_ws_project_ws/install/Gripper/lib/python3.10/site-packages:/home/kaky/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/kaky/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages:/home/kaky/ros2_ws/install/rob599_hw2_interfaces/local/lib/python3.10/dist-packages:/home/kaky/ros2_ws/build/rob599_hw2:/home/kaky/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kaky/ros2_ws/install/rob599_msgs:/home/kaky/ros2_ws/install/rob599_hw2_interfaces'}, 'shell': False}
+[3.700638] (Dynamixels) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/Dynamixels', 'build', '--build-base', '/home/kaky/ros2_ws_project_ws/build/Dynamixels/build', 'install', '--record', '/home/kaky/ros2_ws_project_ws/build/Dynamixels/install.log', '--single-version-externally-managed'], 'cwd': '/home/kaky/ros2_ws_project_ws/src/Dynamixels', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kaky', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kaky/ros2_ws/install/rob599_msgs/lib:/home/kaky/ros2_ws/install/rob599_hw2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kaky', 'OLDPWD': '/home/kaky/ros2_ws_project_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1565', 'SYSTEMD_EXEC_PID': '1770', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5643', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kaky/ros2_ws_project_ws/install:/home/kaky/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kaky', 'JOURNAL_STREAM': '8:32320', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kaky', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kaky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/teloiv:@/tmp/.ICE-unix/1748,unix/teloiv:/tmp/.ICE-unix/1748', 'INVOCATION_ID': '345537d3d2fc43b4bb8b94467b7f2d79', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UKIAJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kaky/ros2_ws/install/rob599_basic:/home/kaky/ros2_ws/install/rob599_msgs:/home/kaky/ros2_ws/install/rob599_hw2_interfaces:/home/kaky/ros2_ws/install/rob599_hw2:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b154f01f-fd80-4ce1-ab07-6d855e8b76bd', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kaky/ros2_ws_project_ws/build/Dynamixels', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kaky/ros2_ws_project_ws/build/Dynamixels/prefix_override:/home/kaky/ros2_ws_project_ws/install/Dynamixels/lib/python3.10/site-packages:/home/kaky/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/kaky/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages:/home/kaky/ros2_ws/install/rob599_hw2_interfaces/local/lib/python3.10/dist-packages:/home/kaky/ros2_ws/build/rob599_hw2:/home/kaky/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kaky/ros2_ws/install/rob599_msgs:/home/kaky/ros2_ws/install/rob599_hw2_interfaces'}, 'shell': False}
+[3.714338] (Arduino) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/Arduino', 'build', '--build-base', '/home/kaky/ros2_ws_project_ws/build/Arduino/build', 'install', '--record', '/home/kaky/ros2_ws_project_ws/build/Arduino/install.log', '--single-version-externally-managed'], 'cwd': '/home/kaky/ros2_ws_project_ws/src/Arduino', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kaky', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kaky/ros2_ws/install/rob599_msgs/lib:/home/kaky/ros2_ws/install/rob599_hw2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kaky', 'OLDPWD': '/home/kaky/ros2_ws_project_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1565', 'SYSTEMD_EXEC_PID': '1770', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5643', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kaky/ros2_ws_project_ws/install:/home/kaky/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kaky', 'JOURNAL_STREAM': '8:32320', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kaky', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kaky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/teloiv:@/tmp/.ICE-unix/1748,unix/teloiv:/tmp/.ICE-unix/1748', 'INVOCATION_ID': '345537d3d2fc43b4bb8b94467b7f2d79', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UKIAJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kaky/ros2_ws/install/rob599_basic:/home/kaky/ros2_ws/install/rob599_msgs:/home/kaky/ros2_ws/install/rob599_hw2_interfaces:/home/kaky/ros2_ws/install/rob599_hw2:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b154f01f-fd80-4ce1-ab07-6d855e8b76bd', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kaky/ros2_ws_project_ws/build/Arduino', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kaky/ros2_ws_project_ws/build/Arduino/prefix_override:/home/kaky/ros2_ws_project_ws/install/Arduino/lib/python3.10/site-packages:/home/kaky/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/kaky/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages:/home/kaky/ros2_ws/install/rob599_hw2_interfaces/local/lib/python3.10/dist-packages:/home/kaky/ros2_ws/build/rob599_hw2:/home/kaky/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kaky/ros2_ws/install/rob599_msgs:/home/kaky/ros2_ws/install/rob599_hw2_interfaces'}, 'shell': False}
+[3.726939] (-) TimerEvent: {}
+[3.727855] (tactile) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/tactile', 'build', '--build-base', '/home/kaky/ros2_ws_project_ws/build/tactile/build', 'install', '--record', '/home/kaky/ros2_ws_project_ws/build/tactile/install.log', '--single-version-externally-managed'], 'cwd': '/home/kaky/ros2_ws_project_ws/src/tactile', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kaky', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kaky/ros2_ws/install/rob599_msgs/lib:/home/kaky/ros2_ws/install/rob599_hw2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kaky', 'OLDPWD': '/home/kaky/ros2_ws_project_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1565', 'SYSTEMD_EXEC_PID': '1770', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5643', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kaky/ros2_ws_project_ws/install:/home/kaky/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kaky', 'JOURNAL_STREAM': '8:32320', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kaky', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kaky/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/teloiv:@/tmp/.ICE-unix/1748,unix/teloiv:/tmp/.ICE-unix/1748', 'INVOCATION_ID': '345537d3d2fc43b4bb8b94467b7f2d79', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UKIAJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kaky/ros2_ws/install/rob599_basic:/home/kaky/ros2_ws/install/rob599_msgs:/home/kaky/ros2_ws/install/rob599_hw2_interfaces:/home/kaky/ros2_ws/install/rob599_hw2:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b154f01f-fd80-4ce1-ab07-6d855e8b76bd', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kaky/ros2_ws_project_ws/build/tactile', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kaky/ros2_ws_project_ws/build/tactile/prefix_override:/home/kaky/ros2_ws_project_ws/install/tactile/lib/python3.10/site-packages:/home/kaky/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/kaky/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages:/home/kaky/ros2_ws/install/rob599_hw2_interfaces/local/lib/python3.10/dist-packages:/home/kaky/ros2_ws/build/rob599_hw2:/home/kaky/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kaky/ros2_ws/install/rob599_msgs:/home/kaky/ros2_ws/install/rob599_hw2_interfaces'}, 'shell': False}
+[3.827061] (-) TimerEvent: {}
+[3.927465] (-) TimerEvent: {}
+[4.027829] (-) TimerEvent: {}
+[4.096311] (Gripper) StdoutLine: {'line': b'running egg_info\n'}
+[4.097103] (Gripper) StdoutLine: {'line': b'creating ../../build/Gripper/Gripper.egg-info\n'}
+[4.097391] (Gripper) StdoutLine: {'line': b'writing ../../build/Gripper/Gripper.egg-info/PKG-INFO\n'}
+[4.097750] (Gripper) StdoutLine: {'line': b'writing dependency_links to ../../build/Gripper/Gripper.egg-info/dependency_links.txt\n'}
+[4.097949] (Gripper) StdoutLine: {'line': b'writing entry points to ../../build/Gripper/Gripper.egg-info/entry_points.txt\n'}
+[4.098165] (Gripper) StdoutLine: {'line': b'writing requirements to ../../build/Gripper/Gripper.egg-info/requires.txt\n'}
+[4.098312] (Gripper) StdoutLine: {'line': b'writing top-level names to ../../build/Gripper/Gripper.egg-info/top_level.txt\n'}
+[4.098565] (Gripper) StdoutLine: {'line': b"writing manifest file '../../build/Gripper/Gripper.egg-info/SOURCES.txt'\n"}
+[4.100738] (Arduino) StdoutLine: {'line': b'running egg_info\n'}
+[4.101310] (Gripper) StdoutLine: {'line': b"reading manifest file '../../build/Gripper/Gripper.egg-info/SOURCES.txt'\n"}
+[4.101553] (Arduino) StdoutLine: {'line': b'creating ../../build/Arduino/Arduino.egg-info\n'}
+[4.101777] (Gripper) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.101965] (Arduino) StdoutLine: {'line': b'writing ../../build/Arduino/Arduino.egg-info/PKG-INFO\n'}
+[4.102140] (Arduino) StdoutLine: {'line': b'writing dependency_links to ../../build/Arduino/Arduino.egg-info/dependency_links.txt\n'}
+[4.102349] (Arduino) StdoutLine: {'line': b'writing entry points to ../../build/Arduino/Arduino.egg-info/entry_points.txt\n'}
+[4.102480] (Arduino) StdoutLine: {'line': b'writing requirements to ../../build/Arduino/Arduino.egg-info/requires.txt\n'}
+[4.102772] (Arduino) StdoutLine: {'line': b'writing top-level names to ../../build/Arduino/Arduino.egg-info/top_level.txt\n'}
+[4.102919] (Gripper) StdoutLine: {'line': b"writing manifest file '../../build/Gripper/Gripper.egg-info/SOURCES.txt'\n"}
+[4.103187] (Gripper) StdoutLine: {'line': b'running build\n'}
+[4.103338] (Gripper) StdoutLine: {'line': b'running build_py\n'}
+[4.103493] (Arduino) StdoutLine: {'line': b"writing manifest file '../../build/Arduino/Arduino.egg-info/SOURCES.txt'\n"}
+[4.103630] (Gripper) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/Gripper/build\n'}
+[4.103776] (Gripper) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/Gripper/build/lib\n'}
+[4.103922] (Gripper) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/Gripper/build/lib/Gripper\n'}
+[4.104077] (Gripper) StdoutLine: {'line': b'copying Gripper/__init__.py -> /home/kaky/ros2_ws_project_ws/build/Gripper/build/lib/Gripper\n'}
+[4.104223] (Gripper) StdoutLine: {'line': b'running install\n'}
+[4.105712] (Arduino) StdoutLine: {'line': b"reading manifest file '../../build/Arduino/Arduino.egg-info/SOURCES.txt'\n"}
+[4.106008] (Arduino) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.106645] (Arduino) StdoutLine: {'line': b"writing manifest file '../../build/Arduino/Arduino.egg-info/SOURCES.txt'\n"}
+[4.106878] (Arduino) StdoutLine: {'line': b'running build\n'}
+[4.107133] (Arduino) StdoutLine: {'line': b'running build_py\n'}
+[4.107330] (Arduino) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/Arduino/build\n'}
+[4.107463] (Arduino) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/Arduino/build/lib\n'}
+[4.107622] (Arduino) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/Arduino/build/lib/Arduino\n'}
+[4.107751] (Arduino) StdoutLine: {'line': b'copying Arduino/__init__.py -> /home/kaky/ros2_ws_project_ws/build/Arduino/build/lib/Arduino\n'}
+[4.107905] (Arduino) StdoutLine: {'line': b'running install\n'}
+[4.114962] (tactile) StdoutLine: {'line': b'running egg_info\n'}
+[4.115484] (tactile) StdoutLine: {'line': b'creating ../../build/tactile/tactile.egg-info\n'}
+[4.115769] (tactile) StdoutLine: {'line': b'writing ../../build/tactile/tactile.egg-info/PKG-INFO\n'}
+[4.116081] (tactile) StdoutLine: {'line': b'writing dependency_links to ../../build/tactile/tactile.egg-info/dependency_links.txt\n'}
+[4.116327] (tactile) StdoutLine: {'line': b'writing entry points to ../../build/tactile/tactile.egg-info/entry_points.txt\n'}
+[4.116490] (tactile) StdoutLine: {'line': b'writing requirements to ../../build/tactile/tactile.egg-info/requires.txt\n'}
+[4.116617] (tactile) StdoutLine: {'line': b'writing top-level names to ../../build/tactile/tactile.egg-info/top_level.txt\n'}
+[4.116770] (tactile) StdoutLine: {'line': b"writing manifest file '../../build/tactile/tactile.egg-info/SOURCES.txt'\n"}
+[4.118281] (tactile) StdoutLine: {'line': b"reading manifest file '../../build/tactile/tactile.egg-info/SOURCES.txt'\n"}
+[4.118463] (tactile) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.118975] (tactile) StdoutLine: {'line': b"writing manifest file '../../build/tactile/tactile.egg-info/SOURCES.txt'\n"}
+[4.119157] (tactile) StdoutLine: {'line': b'running build\n'}
+[4.119321] (tactile) StdoutLine: {'line': b'running build_py\n'}
+[4.119485] (tactile) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/tactile/build\n'}
+[4.119609] (tactile) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/tactile/build/lib\n'}
+[4.119761] (tactile) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/tactile/build/lib/tactile\n'}
+[4.119910] (tactile) StdoutLine: {'line': b'copying tactile/__init__.py -> /home/kaky/ros2_ws_project_ws/build/tactile/build/lib/tactile\n'}
+[4.120033] (tactile) StdoutLine: {'line': b'running install\n'}
+[4.120797] (Dynamixels) StdoutLine: {'line': b'running egg_info\n'}
+[4.121654] (Dynamixels) StdoutLine: {'line': b'creating ../../build/Dynamixels/Dynamixels.egg-info\n'}
+[4.121927] (Dynamixels) StdoutLine: {'line': b'writing ../../build/Dynamixels/Dynamixels.egg-info/PKG-INFO\n'}
+[4.122203] (Dynamixels) StdoutLine: {'line': b'writing dependency_links to ../../build/Dynamixels/Dynamixels.egg-info/dependency_links.txt\n'}
+[4.122375] (Dynamixels) StdoutLine: {'line': b'writing entry points to ../../build/Dynamixels/Dynamixels.egg-info/entry_points.txt\n'}
+[4.122553] (Dynamixels) StdoutLine: {'line': b'writing requirements to ../../build/Dynamixels/Dynamixels.egg-info/requires.txt\n'}
+[4.122672] (Dynamixels) StdoutLine: {'line': b'writing top-level names to ../../build/Dynamixels/Dynamixels.egg-info/top_level.txt\n'}
+[4.122927] (Dynamixels) StdoutLine: {'line': b"writing manifest file '../../build/Dynamixels/Dynamixels.egg-info/SOURCES.txt'\n"}
+[4.124681] (Dynamixels) StdoutLine: {'line': b"reading manifest file '../../build/Dynamixels/Dynamixels.egg-info/SOURCES.txt'\n"}
+[4.124853] (Dynamixels) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.125481] (Dynamixels) StdoutLine: {'line': b"writing manifest file '../../build/Dynamixels/Dynamixels.egg-info/SOURCES.txt'\n"}
+[4.125647] (Dynamixels) StdoutLine: {'line': b'running build\n'}
+[4.125791] (Dynamixels) StdoutLine: {'line': b'running build_py\n'}
+[4.125973] (Dynamixels) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/Dynamixels/build\n'}
+[4.126151] (Dynamixels) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/Dynamixels/build/lib\n'}
+[4.126281] (Dynamixels) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/build/Dynamixels/build/lib/Dynamixels\n'}
+[4.126440] (Dynamixels) StdoutLine: {'line': b'copying Dynamixels/__init__.py -> /home/kaky/ros2_ws_project_ws/build/Dynamixels/build/lib/Dynamixels\n'}
+[4.126554] (Dynamixels) StdoutLine: {'line': b'running install\n'}
+[4.127883] (-) TimerEvent: {}
+[4.134550] (Arduino) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.134866] (Arduino) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.135158] (Dynamixels) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.135338] (Dynamixels) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.135463] (Dynamixels) StdoutLine: {'line': b'running install_lib\n'}
+[4.135591] (Arduino) StdoutLine: {'line': b'running install_lib\n'}
+[4.135963] (Dynamixels) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Dynamixels/lib/python3.10/site-packages/Dynamixels\n'}
+[4.136159] (Dynamixels) StdoutLine: {'line': b'copying /home/kaky/ros2_ws_project_ws/build/Dynamixels/build/lib/Dynamixels/__init__.py -> /home/kaky/ros2_ws_project_ws/install/Dynamixels/lib/python3.10/site-packages/Dynamixels\n'}
+[4.136398] (Arduino) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Arduino/lib/python3.10/site-packages/Arduino\n'}
+[4.136625] (Dynamixels) StdoutLine: {'line': b'byte-compiling /home/kaky/ros2_ws_project_ws/install/Dynamixels/lib/python3.10/site-packages/Dynamixels/__init__.py to __init__.cpython-310.pyc\n'}
+[4.136791] (Arduino) StdoutLine: {'line': b'copying /home/kaky/ros2_ws_project_ws/build/Arduino/build/lib/Arduino/__init__.py -> /home/kaky/ros2_ws_project_ws/install/Arduino/lib/python3.10/site-packages/Arduino\n'}
+[4.136932] (Dynamixels) StdoutLine: {'line': b'running install_data\n'}
+[4.137266] (Arduino) StdoutLine: {'line': b'byte-compiling /home/kaky/ros2_ws_project_ws/install/Arduino/lib/python3.10/site-packages/Arduino/__init__.py to __init__.cpython-310.pyc\n'}
+[4.137499] (Arduino) StdoutLine: {'line': b'running install_data\n'}
+[4.137720] (Dynamixels) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Dynamixels/share/ament_index\n'}
+[4.137898] (Dynamixels) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Dynamixels/share/ament_index/resource_index\n'}
+[4.138069] (Dynamixels) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Dynamixels/share/ament_index/resource_index/packages\n'}
+[4.138208] (Dynamixels) StdoutLine: {'line': b'copying resource/Dynamixels -> /home/kaky/ros2_ws_project_ws/install/Dynamixels/share/ament_index/resource_index/packages\n'}
+[4.138323] (Dynamixels) StdoutLine: {'line': b'copying package.xml -> /home/kaky/ros2_ws_project_ws/install/Dynamixels/share/Dynamixels\n'}
+[4.138504] (Dynamixels) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.138649] (Arduino) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Arduino/share/ament_index\n'}
+[4.138812] (Arduino) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Arduino/share/ament_index/resource_index\n'}
+[4.138946] (Arduino) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Arduino/share/ament_index/resource_index/packages\n'}
+[4.139071] (Arduino) StdoutLine: {'line': b'copying resource/Arduino -> /home/kaky/ros2_ws_project_ws/install/Arduino/share/ament_index/resource_index/packages\n'}
+[4.139194] (Arduino) StdoutLine: {'line': b'copying package.xml -> /home/kaky/ros2_ws_project_ws/install/Arduino/share/Arduino\n'}
+[4.139325] (Arduino) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.141502] (Dynamixels) StdoutLine: {'line': b'Copying ../../build/Dynamixels/Dynamixels.egg-info to /home/kaky/ros2_ws_project_ws/install/Dynamixels/lib/python3.10/site-packages/Dynamixels-0.0.0-py3.10.egg-info\n'}
+[4.142404] (Arduino) StdoutLine: {'line': b'Copying ../../build/Arduino/Arduino.egg-info to /home/kaky/ros2_ws_project_ws/install/Arduino/lib/python3.10/site-packages/Arduino-0.0.0-py3.10.egg-info\n'}
+[4.142593] (Dynamixels) StdoutLine: {'line': b'running install_scripts\n'}
+[4.143398] (Arduino) StdoutLine: {'line': b'running install_scripts\n'}
+[4.143675] (tactile) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.143854] (tactile) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.143983] (Gripper) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.144202] (Gripper) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.144340] (tactile) StdoutLine: {'line': b'running install_lib\n'}
+[4.144476] (Gripper) StdoutLine: {'line': b'running install_lib\n'}
+[4.145053] (tactile) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/tactile/lib/python3.10/site-packages/tactile\n'}
+[4.145253] (tactile) StdoutLine: {'line': b'copying /home/kaky/ros2_ws_project_ws/build/tactile/build/lib/tactile/__init__.py -> /home/kaky/ros2_ws_project_ws/install/tactile/lib/python3.10/site-packages/tactile\n'}
+[4.145446] (Gripper) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Gripper/lib/python3.10/site-packages/Gripper\n'}
+[4.145616] (Gripper) StdoutLine: {'line': b'copying /home/kaky/ros2_ws_project_ws/build/Gripper/build/lib/Gripper/__init__.py -> /home/kaky/ros2_ws_project_ws/install/Gripper/lib/python3.10/site-packages/Gripper\n'}
+[4.145777] (tactile) StdoutLine: {'line': b'byte-compiling /home/kaky/ros2_ws_project_ws/install/tactile/lib/python3.10/site-packages/tactile/__init__.py to __init__.cpython-310.pyc\n'}
+[4.145979] (tactile) StdoutLine: {'line': b'running install_data\n'}
+[4.146330] (Gripper) StdoutLine: {'line': b'byte-compiling /home/kaky/ros2_ws_project_ws/install/Gripper/lib/python3.10/site-packages/Gripper/__init__.py to __init__.cpython-310.pyc\n'}
+[4.146682] (Gripper) StdoutLine: {'line': b'running install_data\n'}
+[4.146881] (tactile) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/tactile/share/ament_index\n'}
+[4.147109] (tactile) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/tactile/share/ament_index/resource_index\n'}
+[4.147287] (tactile) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/tactile/share/ament_index/resource_index/packages\n'}
+[4.147411] (tactile) StdoutLine: {'line': b'copying resource/tactile -> /home/kaky/ros2_ws_project_ws/install/tactile/share/ament_index/resource_index/packages\n'}
+[4.147624] (tactile) StdoutLine: {'line': b'copying package.xml -> /home/kaky/ros2_ws_project_ws/install/tactile/share/tactile\n'}
+[4.147793] (tactile) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.148004] (Gripper) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Gripper/share/ament_index\n'}
+[4.148145] (Gripper) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Gripper/share/ament_index/resource_index\n'}
+[4.148365] (Gripper) StdoutLine: {'line': b'creating /home/kaky/ros2_ws_project_ws/install/Gripper/share/ament_index/resource_index/packages\n'}
+[4.148510] (Gripper) StdoutLine: {'line': b'copying resource/Gripper -> /home/kaky/ros2_ws_project_ws/install/Gripper/share/ament_index/resource_index/packages\n'}
+[4.148654] (Gripper) StdoutLine: {'line': b'copying package.xml -> /home/kaky/ros2_ws_project_ws/install/Gripper/share/Gripper\n'}
+[4.148770] (Gripper) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.152630] (tactile) StdoutLine: {'line': b'Copying ../../build/tactile/tactile.egg-info to /home/kaky/ros2_ws_project_ws/install/tactile/lib/python3.10/site-packages/tactile-0.0.0-py3.10.egg-info\n'}
+[4.153074] (Gripper) StdoutLine: {'line': b'Copying ../../build/Gripper/Gripper.egg-info to /home/kaky/ros2_ws_project_ws/install/Gripper/lib/python3.10/site-packages/Gripper-0.0.0-py3.10.egg-info\n'}
+[4.156530] (Gripper) StdoutLine: {'line': b'running install_scripts\n'}
+[4.156894] (tactile) StdoutLine: {'line': b'running install_scripts\n'}
+[4.174165] (Arduino) StdoutLine: {'line': b"writing list of installed files to '/home/kaky/ros2_ws_project_ws/build/Arduino/install.log'\n"}
+[4.175080] (Dynamixels) StdoutLine: {'line': b"writing list of installed files to '/home/kaky/ros2_ws_project_ws/build/Dynamixels/install.log'\n"}
+[4.187578] (Gripper) StdoutLine: {'line': b"writing list of installed files to '/home/kaky/ros2_ws_project_ws/build/Gripper/install.log'\n"}
+[4.188423] (tactile) StdoutLine: {'line': b"writing list of installed files to '/home/kaky/ros2_ws_project_ws/build/tactile/install.log'\n"}
+[4.228089] (-) TimerEvent: {}
+[4.258715] (Arduino) CommandEnded: {'returncode': 0}
+[4.328183] (-) TimerEvent: {}
+[4.433165] (-) TimerEvent: {}
+[4.534522] (-) TimerEvent: {}
+[4.635248] (-) TimerEvent: {}
+[4.667904] (Arduino) JobEnded: {'identifier': 'Arduino', 'rc': 0}
+[4.674524] (tactile) CommandEnded: {'returncode': 0}
+[4.735409] (-) TimerEvent: {}
+[4.758761] (tactile) JobEnded: {'identifier': 'tactile', 'rc': 0}
+[4.759555] (Gripper) CommandEnded: {'returncode': 0}
+[4.820840] (Gripper) JobEnded: {'identifier': 'Gripper', 'rc': 0}
+[4.821601] (Dynamixels) CommandEnded: {'returncode': 0}
+[4.835601] (-) TimerEvent: {}
+[4.885117] (Dynamixels) JobEnded: {'identifier': 'Dynamixels', 'rc': 0}
+[4.886080] (-) EventReactorShutdown: {}

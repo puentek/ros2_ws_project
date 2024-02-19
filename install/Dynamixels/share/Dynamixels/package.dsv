@@ -1,0 +1,6 @@
+source;share/Dynamixels/hook/pythonpath.ps1
+source;share/Dynamixels/hook/pythonpath.dsv
+source;share/Dynamixels/hook/pythonpath.sh
+source;share/Dynamixels/hook/ament_prefix_path.ps1
+source;share/Dynamixels/hook/ament_prefix_path.dsv
+source;share/Dynamixels/hook/ament_prefix_path.sh

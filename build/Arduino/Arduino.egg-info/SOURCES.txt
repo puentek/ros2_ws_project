@@ -1,0 +1,16 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/Arduino/Arduino.egg-info/PKG-INFO
+../../build/Arduino/Arduino.egg-info/SOURCES.txt
+../../build/Arduino/Arduino.egg-info/dependency_links.txt
+../../build/Arduino/Arduino.egg-info/entry_points.txt
+../../build/Arduino/Arduino.egg-info/requires.txt
+../../build/Arduino/Arduino.egg-info/top_level.txt
+../../build/Arduino/Arduino.egg-info/zip-safe
+Arduino/__init__.py
+resource/Arduino
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,16 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/Dynamixels/Dynamixels.egg-info/PKG-INFO
+../../build/Dynamixels/Dynamixels.egg-info/SOURCES.txt
+../../build/Dynamixels/Dynamixels.egg-info/dependency_links.txt
+../../build/Dynamixels/Dynamixels.egg-info/entry_points.txt
+../../build/Dynamixels/Dynamixels.egg-info/requires.txt
+../../build/Dynamixels/Dynamixels.egg-info/top_level.txt
+../../build/Dynamixels/Dynamixels.egg-info/zip-safe
+Dynamixels/__init__.py
+resource/Dynamixels
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
